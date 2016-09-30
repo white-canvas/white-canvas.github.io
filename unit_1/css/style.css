@@ -1,7 +1,11 @@
 body {
-    background-color: ##FCFBFA;
+    background-color: #F9F7F4;
 }
 
-h1, p {
-    color: ##515152;
+h1 {
+    color: #515152; font-family:"Lato"; letter-spacing:0.3em; font-size:1.7em; font-weight:300
+}
+
+p {
+    color: #d3c9bc; font-family:"Lato"; letter-spacing:0.1em; font-size:0.9em; font-weight:200
 }
