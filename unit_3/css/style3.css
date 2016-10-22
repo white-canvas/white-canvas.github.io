@@ -1,0 +1,87 @@
+body {
+    background-color: #fbf7f1;
+}
+
+h1 {
+    color: #515152; 
+	font-family:"Bodoni"; 
+	letter-spacing:0.3em; 
+	font-size:1.7em; 
+	font-weight:300;
+}
+
+.callout {
+    color: #bdbcb1; 
+	font-family:"raleway"; 
+	letter-spacing:0.3em; 
+	font-size:1em; font-weight:200; 
+	padding-bottom: 30px;
+	line-height: 1.8em;
+}
+
+.logoicon
+{ 
+	padding-top: 30px;
+	display: block;
+    margin: auto;
+    width: 15%;
+}
+
+.logo
+{ 
+	padding-top: 30px;
+	padding-bottom: 10px;
+	display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.mainlinks
+{
+	padding-top: 30px;
+	padding-bottom: 10px;
+    margin: auto;
+	color: #282828; font-family:"raleway"; letter-spacing:0.4em; font-size:1em; font-weight:200;
+}	
+
+.button {
+    background-color: #bdbcb1;
+    border: none;
+    color: white;
+    padding: 14px;
+	width: 230px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6em;
+	font-family:"raleway"; letter-spacing:0.3em;font-weight:200;
+	margin:20px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+	
+.button:hover {
+    background-color: #bdbcb1;
+	opacity: 0.5;
+    color: white;
+}
+
+.button:focus {
+	outline:0;
+}
+
+.socialicon
+{
+	width:18px;
+	margin:20px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.socialicon:hover {
+	opacity: 0.5;
+}
+
+.socialicon:focus {
+	outline:0;
+}
