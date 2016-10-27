@@ -2,6 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
 body {
     background-color: #fbf7f1;
 }
