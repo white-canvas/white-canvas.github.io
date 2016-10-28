@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
+
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+	background-color: #ffffff;
+}
+
+nav {
+	background-color: #f3f1f1;
+	height: 60px;
+	position: fixed;
+    top: 0;
+	width:100%;
+}
+
+ul {
+	height: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	font-size: 0.6em;
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 600;
+	letter-spacing:0.3em;		
+	text-transform:uppercase;
+    display: block;
+    color: #353635;
+    text-align: left;
+    padding: 22px 16px ;
+    text-decoration: none;
+-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.navlink:hover {
+	opacity: 0.5;
+}
+
+.navlink:focus {
+	outline:0;
+}
+
+li #logo-centered {
+        position: absolute;
+        left: 45.3%;
+		top: 15%;
+        display: block;
+        width: 100px;
+        text-align: center;
+        background-color: transparent;
+}
+
+li .socialicon {
+position: relative;
+padding: 21px 0;
+-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.socialicon:hover {
+	opacity: 0.5;
+}
+
+.socialicon:focus {
+	outline:0;
+}
+
+.headerimage {
+	width:90%;
+	display:block;
+	margin:auto;	
+}
+
+h1 {
+	color: #353635;
+	font-family:'playfair display', serif; 
+	letter-spacing:0.1em; 
+	font-size:1.4em; font-weight:900; 
+	padding-bottom: 10px;
+	line-height: 1.4em;
+	text-align:center;		
+}
+
+h5 {
+	color: #353635;
+	font-family:'raleway', serif; 
+	letter-spacing:0.3em; 
+	font-size:0.7em; font-weight:600; 
+	text-align:center;
+	text-transform:uppercase;
+	
+}
+
+p {
+	color: #353635;
+	font-family:'playfair display', serif; 
+	letter-spacing:0.1em; 
+	font-size:0.8em; font-weight:400; 
+	padding: 0 40px 10px;
+	line-height: 1.8em;
+	text-align:center;
+}
+
+hr {
+	background-color: #353635;
+	width: 3%;
+	height: 1px;
+	border: 1px;
+}
+
+container {
+	text-align:center;
+	display:block;
+	margin:auto;
+}
+
+.third {
+	display: inline-block;
+  vertical-align: middle;
+  margin:1em;
+}
