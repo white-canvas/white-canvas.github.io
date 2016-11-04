@@ -132,8 +132,16 @@ container {
 	display: inline-block;
   vertical-align: middle;
   margin:1em;
+  transition: all .2s ease-in-out;
 }
 
+.third:hover {
+	transform: scale(1.02);
+}
+
+.third:focus {
+	outline:0;
+}
 
 .footer {
 	background-color: #f3f1f1;
