@@ -18,7 +18,7 @@ nav {
 	width:100%;
 }
 
-ul {
+.uln {
 	height: 60px;
     list-style-type: none;
     margin: 0;
@@ -26,11 +26,11 @@ ul {
     overflow: hidden;
 }
 
-li {
+.lin {
     float: left;
 }
 
-li a {
+.lin a {
 	font-size: 0.6em;
 	font-family: 'Raleway', sans-serif; 
 	font-weight: 600;
@@ -53,7 +53,7 @@ li a {
 	outline:0;
 }
 
-li #logo-centered {
+.lin #logo-centered {
         position: absolute;
         left: 45.3%;
 		top: 15%;
@@ -63,9 +63,9 @@ li #logo-centered {
         background-color: transparent;
 }
 
-li .socialicon {
+.socialicon {
 position: relative;
-padding: 21px 0;
+padding: 21px 4px;
 -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
 }
@@ -89,6 +89,7 @@ h1 {
 	font-family:'playfair display', serif; 
 	letter-spacing:0.1em; 
 	font-size:1.4em; font-weight:900; 
+	padding: 0 40px;
 	padding-bottom: 10px;
 	line-height: 1.4em;
 	text-align:center;		
@@ -131,4 +132,51 @@ container {
 	display: inline-block;
   vertical-align: middle;
   margin:1em;
+}
+
+
+.footer {
+	background-color: #f3f1f1;
+	width:100%;
+}
+
+.footercontainer {
+	width:100%;
+	display:block;
+	margin:auto;	
+}
+
+.ulf {
+	height: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lif {
+ display:inline-block;
+}
+
+.lif a {
+	font-size: 0.6em;
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 600;
+	letter-spacing:0.3em;		
+	text-transform:uppercase;
+    display: block;
+    color: #353635;
+    text-align:center;
+    padding: 25px 50px;
+    text-decoration: none;
+-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.navlink:hover {
+	opacity: 0.5;
+}
+
+.navlink:focus {
+	outline:0;
 }
