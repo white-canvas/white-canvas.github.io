@@ -186,3 +186,11 @@ container {
 	width:150px;
 	height:150px;
 }
+
+.instacarousel:hover {
+	opacity: 0.25;
+}
+
+.instacarousel:focus {
+	outline:0;
+}
