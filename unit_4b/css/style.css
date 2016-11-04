@@ -156,6 +156,7 @@ container {
 
 .lif {
  display:inline-block;
+ width:auto;
 }
 
 .lif a {
@@ -166,8 +167,8 @@ container {
 	text-transform:uppercase;
     display: block;
     color: #353635;
-    text-align:center;
-    padding: 25px 50px;
+    text-align: center;
+    padding: 25px 120px;
     text-decoration: none;
 -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
@@ -179,4 +180,9 @@ container {
 
 .navlink:focus {
 	outline:0;
+}
+
+.instacarousel {
+	width:132px;
+	height:132px;
 }
