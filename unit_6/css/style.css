@@ -225,6 +225,15 @@ container {
 	text-align:center;
     float: left;
     width: 33.3%;
+	  transition: all .2s ease-in-out;
+}
+
+.left:hover {
+	transform: scale(1.02);
+}
+
+.left:focus {
+	outline:0;
 }
 
 .right {
